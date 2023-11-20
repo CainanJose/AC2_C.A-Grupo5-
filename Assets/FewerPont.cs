@@ -7,14 +7,14 @@ using UnityEngine;
 public class FewerPont : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider other)
-    {
+    // private void OnTriggerEnter(Collider other)
+    // {
         
-        if (other.gameObject.tag == "comida")
-        {
-            FindObjectOfType<Placar>().pontos--;
+    //     if (other.gameObject.tag == "comida")
+    //     {
+    //         FindObjectOfType<Placar>().pontos--;
 
-        }
-    }
+    //     }
+    // }
 }
 

@@ -11,12 +11,16 @@ public class Placar : MonoBehaviour
 
     private void Start()
     {
-
         text.text = "Pontos: 0";
     }
 
-    private void Update()
+    // private void Update()
+    // {
+    //     text.text = "Pontos: " + pontos.ToString();
+    // }
+
+    public void atualizar()
     {
-        text.text = "Pontos: " + pontos.ToString();
+          text.text = "Pontos: " + pontos.ToString();
     }
 }

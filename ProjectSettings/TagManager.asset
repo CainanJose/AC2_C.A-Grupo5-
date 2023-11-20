@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Anchor
   - comida
+  - mesa
+  - lixo
+  - chao
   layers:
   - Default
   - TransparentFX

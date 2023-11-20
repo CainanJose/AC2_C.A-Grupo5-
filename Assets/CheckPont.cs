@@ -6,12 +6,11 @@ using UnityEngine;
 public class CheckPont : MonoBehaviour
 {
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "comida")
-        {
-            FindObjectOfType<Placar>().pontos++;
-
-        }
-    }
+    // private void OnTriggerEnter(Collider other)
+    // {
+    //     if (other.gameObject.tag == "comida")
+    //     {
+    //         FindObjectOfType<Placar>().pontos++;
+    //     }
+    // }
 }
